@@ -1,0 +1,97 @@
+
+#retratos {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+
+#principal {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+article {
+	display: inline-block;
+	width: 25%;
+}
+
+article.foto {
+	background: #d5c75f;
+	display: inline-block;
+	width: 25%;
+	margin-left: 3.2em;
+	margin-top: 2em;
+}
+
+article.foto img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+article.uno img {
+	-webkit-filter: blur(10px);
+	        filter: blur(10px);
+}
+
+article.dos,.cuatro,.seis img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+
+article.tres img {
+	-webkit-filter: sepia(90%);
+	        filter: sepia(90%);
+}
+
+
+/*MEDIA QUERY*/
+
+#retratos {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+
+#principal {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+article {
+	display: inline-block;
+	width: 25%;
+}
+
+article.foto {
+	background: #d5c75f;
+	display: inline-block;
+	width: 25%;
+	margin-left: 3.2em;
+	margin-top: 2em;
+}
+
+article.foto img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+article.uno img {
+	-webkit-filter: blur(10px);
+	        filter: blur(10px);
+}
+
+article.dos,.cuatro,.seis img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+
+article.tres img {
+	-webkit-filter: sepia(90%);
+	        filter: sepia(90%);
+}

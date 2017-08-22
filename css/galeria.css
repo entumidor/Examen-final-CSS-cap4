@@ -1,0 +1,193 @@
+#galeria {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+
+#principal {
+	background: #d5c75f;
+	max-width: 900px;
+	width: 100%;
+	height: 450px;
+}
+
+article {
+	display: inline-block;
+	width: 25%;
+}
+
+article.foto {
+	background: #d5c75f;
+	display: inline-block;
+	width: 25%;
+	margin-left: 3.2em;
+	margin-top: 2em;
+}
+
+article.foto img {
+	max-width: 100%;
+	border-radius: 10px;
+	border: 2px solid #02010a;
+}
+
+article.uno img {
+	-webkit-filter: blur(10px);
+	        filter: blur(10px);
+}
+
+article.dos,.cuatro,.seis img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+}
+
+article.tres img {
+	-webkit-filter: sepia(90%);
+	        filter: sepia(90%);
+}
+
+article.cinco img {
+	
+	
+}
+
+
+/*MEDIA QUERY*/
+
+/*@media (min-width: 320px) {
+	#banner img {
+		width: 90%;
+		height: 90%;
+		margin: 5px;
+     }
+	.icon-camera {
+		font-size: .8em;
+		margin-left: 10px;
+	}
+	#principal {
+		max-width: 80%px;
+		width: 90%;
+		height: 90%;
+	}
+}
+
+@media (min-width: 3600px){
+
+}
+
+@media (min-width: 420px) {
+	#banner img {
+		width: 90%;
+		height: 93%;
+		margin-top: 10px;
+     }
+	.icon-camera {
+		font-size: 1em;
+	}
+}
+
+
+@media (min-width: 520px) {
+	#banner img {
+		width: 90%;
+		height: 95%;
+		margin: 5px;
+     }
+	.icon-camera {
+		font-size: 1.2em;
+	}
+}
+@media  (min-width: 620px){
+	#banner img {
+		width: 90%;
+		height: 93%;
+		margin: 10px;
+     }
+	.icon-camera {
+		font-size: 1.5em;
+	}
+	
+}
+
+
+@media  (min-width: 768px){
+	#banner img {
+		width: 85%;
+		height: 93%;
+		margin: 10px;
+		
+     }
+	.icon-camera {
+		font-size: 2em;
+	}
+	
+}
+
+@media  (min-width: 800px){
+	.menu {
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+	}
+	.menu a {
+		border: none;
+	}
+	.menu a:hover {
+		background: rgba(255, 255, 255, 0.3);
+	}
+	header label {
+		display: none;
+	}
+	#banner {
+		width: 100%;
+		height: auto;
+		
+	 }
+	#banner img {
+		width: 85%;
+		height: auto;
+	}
+	.icon-camera {
+		font-size: 1.5em;
+	}
+	
+}
+
+@media (min-width: 980px){
+
+}
+
+@media (min-width: 1024px) {
+	.menu {
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+	}
+	.menu a {
+		border: none;
+	}
+	.menu a:hover {
+		background: rgba(255, 255, 255, 0.3);
+	}
+	header label {
+		display: none;
+	}
+	#banner {
+		width: 100%;
+		height: auto;
+		
+	 }
+	
+	#banner img {
+		width: 75%;
+		height: auto
+		
+	}
+}*/
